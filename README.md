@@ -7,7 +7,7 @@ For Example:
 while (num != 1) {
 	while (num % i == 0) {
 		for (num = num; num % i == 0; num = num / i)
-			printf("	%d / %d = %d\n", num, i, num / i);
+			printf("%d / %d = %d\n", num, i, num / i);
 	}
 	i++;
 }
